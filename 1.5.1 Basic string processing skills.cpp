@@ -6,7 +6,7 @@ int main(){
 	string s,t="";
     while (getline(cin,s)){
     	if(s.rfind(".......",0)==0) break;
-        t+=" "+s;
+        t+=s+" ";
     }
     cout<<t;
 }
